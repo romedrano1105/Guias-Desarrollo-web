@@ -1,0 +1,59 @@
+.orders-page {
+  max-width: 1024px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 1px solid #b8b8b8;
+  border-radius: 0.75rem;
+  background: #f8f9fa;
+}
+
+.orders-page h1,
+.orders-page h2 {
+  text-align: left;
+}
+
+.orders-page p {
+  min-height: 0;
+  margin-bottom: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1rem;
+}
+
+.orders-page a {
+  display: inline-block;
+  width: auto;
+  margin-top: 0;
+  padding: 0.5rem 0.75rem;
+}
+
+.orders-page table {
+  margin-bottom: 0;
+}
+
+.orders-page table td,
+.orders-page table th {
+  cursor: auto;
+  vertical-align: middle;
+}
+
+.orders-page table tr:hover {
+  background-color: inherit;
+}
+
+.orders-page .empty-row td {
+  padding: 1.5rem;
+  color: #6c757d;
+  text-align: center;
+}
+
+.orders-page .status-message {
+  min-height: 1.5rem;
+}
+
+@media (max-width: 576px) {
+  .orders-page {
+    margin: 0.75rem;
+    padding: 1rem;
+  }
+}
